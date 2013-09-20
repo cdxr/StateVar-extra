@@ -1,0 +1,17 @@
+name:                StateVar-extra
+version:             0.1.0.0
+synopsis:            Extra functionality for StateVar
+-- description:         
+license:             BSD3
+license-file:        LICENSE
+author:              Craig Roche
+maintainer:          cdxr01@gmail.com
+copyright:           Copyright (c) 2013 Craig Roche
+category:            Data
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  exposed-modules:     Data.StateVar.Reader
+  -- other-modules:       
+  build-depends:       base ==4.6.*, mtl ==2.1.*, StateVar ==1.0.*
